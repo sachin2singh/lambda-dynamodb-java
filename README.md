@@ -1,2 +1,2 @@
-Serverless Architecture with Java 8, AWS Lambda, and Amazon DynamoDB
+## Serverless Architecture with AWS Lambda, Amazon DynamoDB, API Gateway using Java
 
