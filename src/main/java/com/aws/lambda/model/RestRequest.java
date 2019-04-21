@@ -1,8 +1,10 @@
 package com.aws.lambda.model;
 
+import com.aws.lambda.domain.Product;
+
 public class RestRequest {
    
-	private String id;
+	private Product product;
     
     private String httpMethod;
 
@@ -10,18 +12,18 @@ public class RestRequest {
     	
     }
 
-    public RestRequest(String id, String httpMethod) {
-        this.id = id;
+    public RestRequest(Product product, String httpMethod) {
+        this.product = product;
         this.httpMethod = httpMethod;
     }
 
-    public String getId() {
-        return id;
-    }
+	public Product getProduct() {
+		return product;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setProduct(Product product) {
+		this.product = product;
+	}
 
 	public String getHttpMethod() {
 		return httpMethod;
