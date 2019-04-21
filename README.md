@@ -10,10 +10,11 @@ This code base is an example of how to built API with java runtime for Lambda fu
            
 	   
 	   id:  String, Partition Key
-           name : String
+          name : String
   
 * Maven Build : mvn clean package [find the aws-lambda-java-1.0-SNAPSHOT.jar file under target]
 * Create Lambda Function : here are the steps 
+		
 		* select lambda from service console -> create function
 		* function name : enter your function name
 		* select runtime : java 8
