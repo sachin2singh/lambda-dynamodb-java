@@ -7,7 +7,9 @@ This code base is an example of how to built API with java runtime for Lambda fu
 ### DEPLOYMENT NOTES:
 
 * Create DynamoDB Table: Create table with name 'PRODUCT', The following attributes are required
-           id:  String, Partition Key
+           
+	   
+	   id:  String, Partition Key
            name : String
   
 * Maven Build : mvn clean package [find the aws-lambda-java-1.0-SNAPSHOT.jar file under target]
