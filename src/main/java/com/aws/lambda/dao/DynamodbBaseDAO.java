@@ -13,4 +13,5 @@ public abstract class DynamodbBaseDAO {
     	AmazonDynamoDB client = AmazonDynamoDBClientBuilder.defaultClient();
         mapper = new DynamoDBMapper(client);
     }
+
 }
